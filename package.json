@@ -1,0 +1,27 @@
+{
+  "name": "@bcg-ts/http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": {
+    "name": "Brandon Garcia",
+    "email": "bcgarcia44@gmail.com"
+  },
+  "license": "MIT",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "directories": {
+    "lib": "."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brandon-garcia/ts-http.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "12.11.7",
+    "typescript": "3.4.5"
+  }
+}
