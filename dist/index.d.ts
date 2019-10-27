@@ -10,13 +10,4 @@ export interface IHttpResponse {
     statusCode: number;
     statusMessage: string;
 }
-export interface IHttpError {
-    message: string;
-    response: IHttpResponse;
-}
-export declare class HttpError extends Error implements IHttpError {
-    response: IHttpResponse;
-    constructor(message: string, response: IHttpResponse);
-}
-export declare const throwIfHttpError: (response: IHttpResponse) => IHttpResponse;
 export declare const sendHttpRequest: (options: IHttpRequest) => Promise<IHttpResponse>;
